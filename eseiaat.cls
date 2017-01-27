@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{euetit} [2007/09/06 v0.1 Clase comú a les classes d'exàmen]
+\ProvidesClass{eseiaat} [2007/09/06 v0.1 Clase comú a les classes d'exàmen]
 \DeclareOption{10pt}{\PassOptionsToClass{10pt}{article}}
 \DeclareOption{11pt}{\PassOptionsToClass{11pt}{article}}
 \DeclareOption{12pt}{\PassOptionsToClass{12pt}{article}}

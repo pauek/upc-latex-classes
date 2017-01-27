@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
 \ProvidesClass{exam} [2007/06/07 v0.1 Examen de Fonaments d'Informàtica]
-\LoadClass[11pt]{euetit}
+\LoadClass[11pt]{eseiaat}
 
 %% Marges
 \setmarginsrb{1.8cm}{1.8cm}{1.8cm}{1.8cm}{1cm}{1cm}{.75cm}{1cm}

@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
 \ProvidesClass{test-fi} [2007/09/06 v0.1 Examen de Test de FI]
-\LoadClass{euetit}
+\LoadClass{eseiaat}
 
 \RequirePackage{enumerate}
 

@@ -1,9 +1,9 @@
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
 \ProvidesClass{control} [2007/06/07 v0.1 Examen de Fonaments d'Informàtica]
-\DeclareOption{twocolumn}{\PassOptionsToClass{twocolumn}{euetit}}
+\DeclareOption{twocolumn}{\PassOptionsToClass{twocolumn}{eseiaat}}
 \ExecuteOptions{11pt}
 \ProcessOptions
-\LoadClass{euetit}
+\LoadClass{eseiaat}
 
 %% Marges
 \setmarginsrb{1.8cm}{1.8cm}{1.8cm}{1.8cm}{1cm}{1cm}{.75cm}{1cm}
