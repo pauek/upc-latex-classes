@@ -3,6 +3,7 @@
 \DeclareOption{10pt}{\PassOptionsToClass{10pt}{article}}
 \DeclareOption{11pt}{\PassOptionsToClass{11pt}{article}}
 \DeclareOption{12pt}{\PassOptionsToClass{12pt}{article}}
+\DeclareOption{twocolumn}{\PassOptionsToClass{twocolumn}{article}}
 \ExecuteOptions{a4paper}
 \ProcessOptions
 \LoadClass{article}
@@ -11,6 +12,7 @@
 \RequirePackage{ucs}
 \RequirePackage[utf8x]{inputenc}
 % \RequirePackage[latin1]{inputenc}
+\RequirePackage[defaultmono,scale=.8]{droidmono}
 
 %% Boxes
 \RequirePackage[pdftex]{color}
@@ -49,7 +51,7 @@
 \RequirePackage{relsize}
 \RequirePackage{fancyvrb}
 \fvset{commentchar=\%}
-\fvset{xleftmargin=.8cm}
+\fvset{xleftmargin=0mm}
 % \fvset{fontfamily=tt,fontsize=\small,fontseries=b}
 
 %% If-Then
@@ -57,3 +59,4 @@
 
 %% Comandes específiques
 \newcommand{\medium}{\fontsize{13}{16}\selectfont}
+\newcommand{\mediumsmall}{\fontsize{12}{15}\selectfont}

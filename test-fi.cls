@@ -81,7 +81,7 @@
 
 
 %% Dades
-\newcommand{\Exam}{\Tit\ (permutació \Permut)}
+\newcommand{\Exam}{\Tit\ (permutació\quad\Permut)}
 
 \newcommand{\NumPreg}{1}
 \newcommand{\NumPreguntes}[1]{\renewcommand{\NumPreg}{#1}}
@@ -125,18 +125,18 @@
 \newcommand{\capsalera}
 { 
   \setlength{\unitlength}{1mm}%
-  \begin{picture}(0,0)(0,-17)
-    \put(0,-1.5){\linethickness{.4mm}\framebox(180,21.5){}}
+  \begin{picture}(0,0)(0,-14)
+    \put(0, 1.5){\linethickness{.1mm}\framebox(180,18.5){}}
     
-    \put(4,12.4){\textbf{DNI}}
-    \multiput(21,10)(5.5,0){8}{\dashbox{1}(5,7)}
-    \put(65,13.5){\linethickness{.3mm}\line(1,0){2.0}}
-    \put(67.5,10){\dashbox{1}(5,7)}
+    \put(3,12.8){\textbf{DNI}}
+    \multiput(21,11)(5.5,0){8}{\dashbox{1}(5,7)}
+    \put(65,14.5){\linethickness{.3mm}\line(1,0){2.0}}
+    \put(67.5,11){\dashbox{1}(5,7)}
 
-    \put(4,3.2) {\textbf{Respostes}}
-    \multiput(21,1)(7,0){\NumPreg}{\dashbox{2}(6,6){}}
+    \put(3,4.9) {\textbf{Respostes}}
+    \multiput(21,3)(7,0){\NumPreg}{\dashbox{2}(6,6){}}
 
-    \put(154,14) {Permutació \textbf{\Permut}}
+    \put(154.5,15) {Permutació\quad\textbf{\Permut}}
   \end{picture}%
   \vspace{-8.5mm}%
 }
