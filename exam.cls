@@ -3,7 +3,7 @@
 \LoadClass[11pt]{eseiaat}
 
 %% Marges
-\setmarginsrb{1.8cm}{1.8cm}{1.8cm}{1.8cm}{1cm}{1cm}{.75cm}{1cm}
+\setmarginsrb{1.4cm}{1.4cm}{1.4cm}{1.4cm}{1cm}{1cm}{.75cm}{1cm}
 
 %% Headers
 \RequirePackage{fancyhdr}

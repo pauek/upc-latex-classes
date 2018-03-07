@@ -6,7 +6,7 @@
 \LoadClass{eseiaat}
 
 %% Marges
-\setmarginsrb{1.4cm}{1.2cm}{1.4cm}{1.4cm}{1cm}{.6cm}{.5cm}{0cm}
+\setmarginsrb{0.4cm}{0.4cm}{0.4cm}{0.4cm}{1cm}{.6cm}{.5cm}{0cm}
 
 %% Headers
 \RequirePackage{fancyhdr}

@@ -7,7 +7,8 @@
 %% Marges
 %% \setmarginsrb{left}{top}{right}{bottom}%
 %%              {headheight}{headsep}{footheight}{footskip}
-\setmarginsrb{1.5cm}{1.5cm}{1.5cm}{1.2cm}{2.75cm}{.25cm}{1cm}{.7cm}
+\setmarginsrb{1.0cm}{1.0cm}{1.0cm}{1.0cm}
+             {3cm}{.3cm}{1cm}{.8cm}
 
 %% Separació paràgrafs
 \setlength{\parskip}{0.2mm}
@@ -125,8 +126,8 @@
 \newcommand{\capsalera}
 { 
   \setlength{\unitlength}{1mm}%
-  \begin{picture}(0,0)(0,-14)
-    \put(0, 1.5){\linethickness{.1mm}\framebox(180,18.5){}}
+  \begin{picture}(0,0)(0,-17)
+    \put(0, 1.5){\linethickness{.1mm}\framebox(190,18.5){}}
     
     \put(3,12.8){\textbf{DNI}}
     \multiput(21,11)(5.5,0){8}{\dashbox{1}(5,7)}
@@ -136,7 +137,7 @@
     \put(3,4.9) {\textbf{Respostes}}
     \multiput(21,3)(7,0){\NumPreg}{\dashbox{2}(6,6){}}
 
-    \put(154.5,15) {Permutació\quad\textbf{\Permut}}
+    \put(168.5,15) {Permutació\enskip\textbf{\Permut}}
   \end{picture}%
   \vspace{-8.5mm}%
 }
