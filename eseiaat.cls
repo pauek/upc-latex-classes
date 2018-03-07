@@ -9,37 +9,42 @@
 \LoadClass{article}
 
 % Input encoding (iso-8859-1 = latin1)
-\RequirePackage{ucs}
-\RequirePackage[utf8x]{inputenc}
+% \RequirePackage{ucs}
+% \RequirePackage[utf8x]{inputenc}
 % \RequirePackage[latin1]{inputenc}
-\RequirePackage[defaultmono,scale=.8]{droidmono}
+% \RequirePackage[defaultmono,scale=.8]{droidmono}
+
+% XeTeX!
+\RequirePackage{fontspec}
+\setmainfont{EB Garamond}
+\setmonofont{Iosevka}[Scale=MatchLowercase]
 
 %% Boxes
-\RequirePackage[pdftex]{color}
-\newcommand{\wob}[1]{%
-\fboxsep=3pt\fcolorbox{black}{black}{\textcolor{white}{\textbf{#1}}}}
-\definecolor{gris}{gray}{0.5}
-\newcommand{\wog}[1]{%
-\fboxsep=3pt\fcolorbox{gris}{gris}{\textcolor{white}{\textbf{#1}}}}
-\newcommand{\wox}[1]{%
-\fboxsep=3pt\fbox{#1}}
+% \RequirePackage[pdftex]{color}
+% \newcommand{\wob}[1]{%
+% \fboxsep=3pt\fcolorbox{black}{black}{\textcolor{white}{\textbf{#1}}}}
+% \definecolor{gris}{gray}{0.5}
+% \newcommand{\wog}[1]{%
+% \fboxsep=3pt\fcolorbox{gris}{gris}{\textcolor{white}{\textbf{#1}}}}
+% \newcommand{\wox}[1]{%
+% \fboxsep=3pt\fbox{#1}}
 
 %% Gràfics
-\RequirePackage[pdftex]{graphicx}
-\DeclareGraphicsExtensions{.png}
-\DeclareGraphicsExtensions{.pdf}
+% \RequirePackage[pdftex]{graphicx}
+% \DeclareGraphicsExtensions{.png}
+% \DeclareGraphicsExtensions{.pdf}
 
 %% Marges
 \RequirePackage{vmargin}
 \setpapersize{A4}
 
 %% Font
-\renewcommand{\sfdefault}{phv}
-\renewcommand{\rmdefault}{ptm}
+% \renewcommand{\sfdefault}{phv}
+% \renewcommand{\rmdefault}{ptm}
 % \RequirePackage{times}
 
 %% Per posar la font en "monospaced"
-\newcommand{\T}[1]{{\texttt{#1}}}
+% \newcommand{\T}[1]{{\texttt{#1}}}
 
 % Paràgrafs
 \RequirePackage{setspace}

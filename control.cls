@@ -6,7 +6,7 @@
 \LoadClass{eseiaat}
 
 %% Marges
-\setmarginsrb{1.8cm}{1.8cm}{1.8cm}{1.8cm}{1cm}{1cm}{.75cm}{1cm}
+\setmarginsrb{1.4cm}{1.2cm}{1.4cm}{1.4cm}{1cm}{.6cm}{.5cm}{0cm}
 
 %% Headers
 \RequirePackage{fancyhdr}
@@ -14,7 +14,7 @@
 \chead{}
 \rhead{{\bf \Esp} \\ \Temps}
 \lhead{{\bf \Assig} \\ \Exam}
-\fancyfoot[C]{\thepage}
+\fancyfoot[C]{} %{\thepage}
 
 \renewenvironment{quote}{\list{}{\leftmargin=6mm\rightmargin=0pt}\item[]}{\endlist}
 
