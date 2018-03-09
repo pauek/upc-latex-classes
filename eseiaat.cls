@@ -52,12 +52,39 @@
 \setlength{\parindent}{0cm}
 \setlength{\parskip}{1.6mm}
 
+%% Color
+\RequirePackage{xcolor}
+\definecolor{coderule}{gray}{0.75}
+\definecolor{codebackground}{gray}{0.9}
+
 %% Codi C++
 \RequirePackage{relsize}
+
+\RequirePackage{listings}
+
+\lstdefinestyle{code}{
+   basicstyle=\linespread{0.84}\ttfamily,
+   numbers=none,
+   frame=single,
+   xleftmargin=1mm,
+   xrightmargin=1mm,
+   framerule=0pt,
+   framesep=1.2mm,
+   aboveskip=3.2mm,
+   belowskip=3.2mm,
+   backgroundcolor=\color{codebackground}
+}
+\lstnewenvironment{Code}{\lstset{style=code}}{}
+
 \RequirePackage{fancyvrb}
-\fvset{commentchar=\%}
-\fvset{xleftmargin=0mm}
-% \fvset{fontfamily=tt,fontsize=\small,fontseries=b}
+\DefineVerbatimEnvironment{CodeVrb}{Verbatim}{
+   commentchar=\%,
+   xleftmargin=0mm,
+   frame=none,
+   framesep=1.2mm,
+   rulecolor=\color{coderule},
+   baselinestretch=0.85
+}
 
 %% If-Then
 \RequirePackage{ifthen}

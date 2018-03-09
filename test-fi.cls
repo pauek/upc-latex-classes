@@ -13,9 +13,6 @@
 %% Separació paràgrafs
 \setlength{\parskip}{0.2mm}
 
-%% Color
-\RequirePackage{xcolor}
-
 %% Capçaleres
 \RequirePackage{fancyhdr}
 \pagestyle{fancy}
