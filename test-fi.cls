@@ -73,8 +73,9 @@
   \ifthenelse{\equal{\arabic{pregunta}}{1}}{}{\vspace{4mm}}%
   % \makebox[0mm][r]{
   {
-    \fboxsep 2.5pt
-    \fbox{\textbf{\arabic{pregunta}.}}\hspace{.5mm}
+    \fboxsep 2.6pt
+    \fbox{\textbf{\arabic{pregunta}.}}
+    \hspace{-2.5mm}
   }
   % }
 }
