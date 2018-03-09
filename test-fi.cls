@@ -13,6 +13,9 @@
 %% Separació paràgrafs
 \setlength{\parskip}{0.2mm}
 
+%% Color
+\RequirePackage{xcolor}
+
 %% Capçaleres
 \RequirePackage{fancyhdr}
 \pagestyle{fancy}
@@ -126,16 +129,28 @@
 \newcommand{\capsalera}
 { 
   \setlength{\unitlength}{1mm}%
+  \newcounter{qidx}
+  \setcounter{qidx}{1}
+  \definecolor{background-gray}{gray}{0.75}
+
   \begin{picture}(0,0)(0,-17)
     \put(0, 1.5){\linethickness{.1mm}\framebox(190,18.5){}}
     
-    \put(3,12.8){\textbf{DNI}}
+    \put(3,13.3){\textbf{DNI}}
     \multiput(21,11)(5.5,0){8}{\dashbox{1}(5,7)}
     \put(65,14.5){\linethickness{.3mm}\line(1,0){2.0}}
     \put(67.5,11){\dashbox{1}(5,7)}
 
     \put(3,4.9) {\textbf{Respostes}}
-    \multiput(21,3)(7,0){\NumPreg}{\dashbox{2}(6,6){}}
+    \multiput(19.5,3)(7,0){\NumPreg}{
+      \makebox[0pt]{
+        \hspace{11pt}\raisebox{2pt}{
+          \color{background-gray}\scriptsize\theqidx
+        }
+      }
+      \dashbox{2}(6,6){}
+      \stepcounter{qidx}
+    }
 
     \put(168.5,15) {Permutació\enskip\textbf{\Permut}}
   \end{picture}%
