@@ -50,40 +50,40 @@
 \RequirePackage{setspace}
 % \setstretch{1.2}
 \setlength{\parindent}{0cm}
-\setlength{\parskip}{1.6mm}
-
-%% Color
-\RequirePackage{xcolor}
-\definecolor{coderule}{gray}{0.75}
-\definecolor{codebackground}{gray}{0.9}
+\setlength{\parskip}{0mm}
 
 %% Codi C++
 \RequirePackage{relsize}
 
-\RequirePackage{listings}
+%% Color
+\RequirePackage{xcolor}
+\definecolor{coderule}{gray}{0.4}
 
-\lstdefinestyle{code}{
-   basicstyle=\linespread{0.84}\ttfamily,
-   numbers=none,
-   frame=single,
-   xleftmargin=1mm,
-   xrightmargin=1mm,
-   framerule=0pt,
-   framesep=1.2mm,
-   aboveskip=3.2mm,
-   belowskip=3.2mm,
-   backgroundcolor=\color{codebackground}
-}
-\lstnewenvironment{Code}{\lstset{style=code}}{}
+% \definecolor{codebackground}{gray}{0.9}
+% \RequirePackage{listings}
+% \lstdefinestyle{code}{
+%    basicstyle=\linespread{0.84}\ttfamily,
+%    numbers=none,
+%    frame=single,
+%    xleftmargin=1mm,
+%    xrightmargin=1mm,
+%    framerule=0pt,
+%    framesep=1.2mm,
+%    aboveskip=3.2mm,
+%    belowskip=3.2mm,
+%    backgroundcolor=\color{codebackground}
+% }
+% \lstnewenvironment{CodeLst}{\lstset{style=code}}{}
 
 \RequirePackage{fancyvrb}
-\DefineVerbatimEnvironment{CodeVrb}{Verbatim}{
+\DefineVerbatimEnvironment{Code}{Verbatim}{
    commentchar=\%,
    xleftmargin=0mm,
-   frame=none,
+   frame=single,
+   % framerule=0.4pt,
    framesep=1.2mm,
    rulecolor=\color{coderule},
-   baselinestretch=0.85
+   baselinestretch=0.8
 }
 
 %% If-Then

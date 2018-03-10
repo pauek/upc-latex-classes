@@ -75,7 +75,6 @@
   {
     \fboxsep 2.6pt
     \fbox{\textbf{\arabic{pregunta}.}}
-    \hspace{-2.5mm}
   }
   % }
 }
